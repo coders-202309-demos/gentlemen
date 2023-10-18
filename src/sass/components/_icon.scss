@@ -1,0 +1,12 @@
+@use "../variables";
+@use "../flex";
+
+.icon {
+  background-color: variables.$background-small-items;
+  border-radius: 50%;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  @extend .flex-container-center-main;
+  @extend .flex-container-center-cross;
+}
